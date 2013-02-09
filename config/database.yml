@@ -1,0 +1,17 @@
+development:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: boats
+  pool: 5
+  username: harish
+  password: test123
+
+test:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: boats_test
+  pool: 5
+  username: harish
+  password: test123
