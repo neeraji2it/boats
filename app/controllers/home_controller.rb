@@ -1,10 +1,14 @@
 class HomeController < ApplicationController
-	def index
+  def index
 
-	end
+  end
 
   def sitemap
-    @boats = Boat.where(:activated => 1)
-    @destinations = Destination.where(:activated => 1)
+    @boats = Boat.activated
+    @destinations = Destination.activated
+
+    respond_to do |format|
+      format.xml { render :layout => false, :content_type => :xml }
+    end
   end
 end

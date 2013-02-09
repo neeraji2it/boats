@@ -5,10 +5,16 @@
 # below each fixture, per the syntax in the comments below
 #
 one:
-	name: boat_1
+  name: boat_1
+  permalink: permalink_1
+  activated: 1
 
 two:
-	name: boat_2
+  name: boat_2
+  permalink: permalink_2
+  activated: 1
 
 three:
   name: boat_3
+  permalink: permalink_3
+  activated: 1

@@ -6,9 +6,15 @@
 #
 one:
   name: destination_1
+  permalink: permalink_1
+  activated: 1
 
 two:
   name: destination_2
+  permalink: permalink_2
+  activated: 1
 
 three:
   name: destination_3
+  permalink: permalink_3
+  activated: 1
